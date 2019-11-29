@@ -54,9 +54,9 @@ Module.register("MMM-EndOfOil",{
 	 /////  Add this function to the modules you want to control with voice //////
 
     notificationReceived: function(notification, payload) {
-        if (notification === 'HIDE_EXTINCTIONS') {
+        if (notification === 'HIDE_OIL) {
             this.hide(1000);
-        }  else if (notification === 'SHOW_EXTINCTIONS') {
+        }  else if (notification === 'SHOW_OIL') {
             this.show(1000);
         }
 
